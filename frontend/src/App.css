@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #6b7280;
+}
+
+/* Profiles Container */
+.profiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #3b82f6;
+  margin: 5px 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 5px 0;
+}
+
+.location svg {
+  width: 16px;
+  height: 16px;
+  color: #3b82f6;
+  margin-right: 5px;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 10px 0;
+}
